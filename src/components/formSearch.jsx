@@ -55,7 +55,7 @@ const FormSearch = ({onSearch}) => {
                         type="number" 
                         className="form-control" 
                         id="latitudeInput" 
-                        placeholder="Enter latitude"
+                        placeholder="latitude"
                         pattern="[0-9]*" 
                         value={values['lat']}
                         onChange={(e) => setFieldValue('lat', e.target.value)}
@@ -67,7 +67,7 @@ const FormSearch = ({onSearch}) => {
                         type="number" 
                         className="form-control"
                         id="longitudeInput"
-                        placeholder="Enter Longitude"
+                        placeholder="longitude"
                         pattern="[0-9]*" 
                         value={values['log']} 
                         onChange={(e) => setFieldValue('log', e.target.value)}

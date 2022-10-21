@@ -90,7 +90,7 @@ console.log('currentItems', currentItems)
                   defaultZoom={11}
                   bootstrapURLKeys={{key: ''}}
                 >
-                  {currentItems.map(({ lat, lon, id, name, num_machines, description, street }) => {
+                  {currentItems.map(({ lat, lon, id, name, num_machines, street }) => {
                     return (
                       <Marker key={id} lat={lat} lng={lon} text={num_machines} tooltip={{id, name, num_machines, street }} />
                     );
