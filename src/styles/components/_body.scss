@@ -1,0 +1,33 @@
+
+.app-body {
+    margin: 4rem 0;
+    min-height: 10vh;
+    .card-list {
+        list-style: none;
+        padding: 0;
+        .card-item {
+            text-decoration: none;
+        }
+    }
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+        .form-wrapper {
+            padding: 0 2rem;
+            max-width: 35%;
+            min-width: 25rem;
+           
+            .form-section {
+                border: 0.1rem solid #c4c4c4;
+                padding: 1rem;
+                border-radius: 7px;
+                margin-bottom: 1rem;
+            }
+        }
+        .google-map {
+            width: 60%;
+            padding: 0;
+        }
+    } 
+}

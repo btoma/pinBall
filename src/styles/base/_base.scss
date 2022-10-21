@@ -1,0 +1,46 @@
+
+
+html, .App {
+    background-color: #f6f6f6;
+}
+
+.form-section {
+    background: white;
+    .form-group {
+        label {
+            float: left;
+        }
+        input{
+            margin-bottom: 1rem;
+        }
+    }
+    .button-section {
+        margin-top: 1rem;
+        button{
+            &:first-child {
+                margin-right: 5rem;
+            }
+        }
+    }
+}
+
+.circle {
+    background: #d83b01;
+    border-radius: 50%;
+    color: #fff;
+    height: 2em;
+    position: relative;
+    width: 2em;
+    border: 1px solid transparent;
+}
+  
+.circleText {
+    text-align: center;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+  

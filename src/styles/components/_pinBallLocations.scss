@@ -1,0 +1,25 @@
+
+.pinBallLocations {
+  border: 0.1rem solid #c4c4c4;
+  padding: 1rem;
+  border-radius: 7px;
+  height: 75vh;
+  overflow: scroll;
+  background-color: white;
+  .card-list {
+    .card-item {
+      .card-location {
+        .locationName {
+          background-color: #7f7fa0;
+          color: #c4c4c4;
+        }
+      }
+    }
+  }
+  .not-found {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
